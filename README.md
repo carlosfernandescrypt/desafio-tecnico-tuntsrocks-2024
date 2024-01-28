@@ -4,14 +4,14 @@ link público da planilha - https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045
 
 ### Installation
 
-- Clone the repository:
+- Clonar o repositório
     ```bash
-    git clone https://github.com/Policarpo7/Google-Hacking-Automation.git
+    git clone https://github.com/carlosfernandescrypt/desafio-tecnico-tuntsrocks-2024.git
     ```
-- Navigate to the cloned directory.
-- Install the necessary dependencies using pip:
-    ```bash
-    pip install -r requirements.txt
+- Navegue até o repositório clonado
+- Execute:
+    ```python
+    python main.py
     ```
 
 ## Usage
