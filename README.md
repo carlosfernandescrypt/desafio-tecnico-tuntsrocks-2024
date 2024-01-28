@@ -1,10 +1,6 @@
 # Desafio Tecnico da Tunts.Rocks 2024
 
-This repository contains two Python scripts for automating Google Hacking techniques, ideal for information security professionals, researchers, and enthusiasts. The scripts enable searching Google for specific terms associated with sensitive file types or specific search operators.
-
-## Prerequisites
-
-Before you begin, ensure you have Python installed on your system. Additionally, you will need to install some external libraries.
+link público da planilha - https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045sXvFT_TPZwDQykaXKgoxpsRoGWVYoI4/edit#gid=0
 
 ### Installation
 
