@@ -23,10 +23,10 @@
 - #### Para saber como ativar suas APIs, siga os seguintes passos:
 
 - #### 1. Crie um novo projeto no Google Cloud Console
-  Acesse o Google Cloud Console.
-  Clique em “Select a project” no canto superior direito.
-  Clique em “NEW PROJECT” no canto superior direito da janela pop-up.
-  Dê um nome ao seu projeto e clique em “CREATE”.
+      Acesse o Google Cloud Console.
+      Clique em “Select a project” no canto superior direito.
+      Clique em “NEW PROJECT” no canto superior direito da janela pop-up.
+      Dê um nome ao seu projeto e clique em “CREATE”.
 
 - #### 2. Habilite a API do Google Sheets
         No painel de navegação à esquerda, clique em “Library”.
