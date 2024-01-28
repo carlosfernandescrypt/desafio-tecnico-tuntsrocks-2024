@@ -12,6 +12,10 @@
     git clone https://github.com/carlosfernandescrypt/desafio-tecnico-tuntsrocks-2024.git
     ```
 - Navegue até o repositório clonado
+- Instale as bibliotecas necessarias usando pip:
+    ```pip
+    pip install -r requirements.txt
+    ```
 - Execute:
     ```python
     python main.py
