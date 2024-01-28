@@ -5,7 +5,7 @@
     https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045sXvFT_TPZwDQykaXKgoxpsRoGWVYoI4/edit#gid=0
     ```
     
-### Installation
+### Instalar
 
 - Clonar o repositório
     ```bash
@@ -21,7 +21,7 @@
     python main.py
     ```
 
-## Modo de uso
+## Como integrar a API do Google Sheets
 
 - Lembrando que você deverá ter as suas credenciais de autenticação do Google Sheets APIs, assim como também ativar a API do Google Drive
 - #### Para saber como ativar suas APIs, siga os seguintes passos:
