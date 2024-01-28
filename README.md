@@ -5,7 +5,7 @@
     https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045sXvFT_TPZwDQykaXKgoxpsRoGWVYoI4/edit#gid=0
     ```
     
-### Instalar
+### Instalação
 
 - Clonar o repositório
     ```bash
