@@ -1,6 +1,8 @@
 # Desafio Tecnico da Tunts.Rocks 2024
 
-link público da planilha - https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045sXvFT_TPZwDQykaXKgoxpsRoGWVYoI4/edit#gid=0
+- Link público da planilha
+    ```
+    https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045sXvFT_TPZwDQykaXKgoxpsRoGWVYoI4/edit#gid=0
 
 ### Installation
 
@@ -14,28 +16,37 @@ link público da planilha - https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045
     python main.py
     ```
 
-## Usage
+## Modo de uso
 
 - Lembrando que você deverá ter as suas credenciais de autenticação do Google Sheets APIs, assim como também ativar a API do Google Drive
-- #### Para saber como ativar suas APIs, navegue no seguinte link:
-        ```
-        https://developers.google.com/sheets/api/guides/concepts
-        ```
-    2. Enter the search term when prompted.
-    3. The script will display links found for each sensitive file type.
+- #### Para saber como ativar suas APIs, siga os seguintes passos:
 
-### Script `extensions.py`
+- #### 1. Crie um novo projeto no Google Cloud Console
+        Acesse o Google Cloud Console.
+        Clique em “Select a project” no canto superior direito.
+        Clique em “NEW PROJECT” no canto superior direito da janela pop-up.
+        Dê um nome ao seu projeto e clique em “CREATE”.
 
-- This script extends the functionalities of the former, including searching for Google hacking operators like `inurl:`, `intext:`, `intitle:`, etc.
-- #### How to use:
-    1. Run the script:
-        ```bash
-        python extensions.py
-        ```
-    2. Enter the search term when prompted.
-    3. The script will display links found for each search operator and file type.
+- #### 2. Habilite a API do Google Sheets
+        No painel de navegação à esquerda, clique em “Library”.
+        Pesquise por “Google Sheets API” e clique no resultado correspondente.
+        Clique em “ENABLE”.
 
-### Demonstração
+- #### 3. Crie credenciais
+        No painel de navegação à esquerda, clique em “Credentials”.
+        Clique em “CREATE CREDENTIALS” e selecione “Service account”.
+        Preencha os detalhes necessários (nome da conta de serviço, descrição, etc.) e clique em “CREATE”.
+        Na próxima tela, você pode selecionar a função desejada. Para fins de leitura e gravação em uma planilha, você pode selecionar “Editor”. Clique em “CONTINUE”.
+        Clique em “DONE” na próxima tela.
 
-[![Demonstração da Ferramenta](http://img.youtube.com/vi/1GD5ZTuXbJc/0.jpg)](http://www.youtube.com/watch?v=1GD5ZTuXbJc)
+- #### 4. Baixe o arquivo JSON
+        Você será redirecionado para a página de detalhes da conta de serviço. Clique no e-mail da conta de serviço que você acabou de criar.
+        Clique na guia “KEYS”.
+        Clique em “ADD KEY” e selecione “JSON”. O arquivo JSON será baixado automaticamente.
+
+- #### 5. Compartilhe a planilha do Google Sheets com a conta de serviço
+        Abra a planilha do Google Sheets que você deseja ler/escrever.
+        Clique em “Share” no canto superior direito.
+        Insira o e-mail da conta de serviço (você pode encontrar isso no arquivo JSON baixado anteriormente) e clique em “Done”.
+
 
