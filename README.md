@@ -1,4 +1,4 @@
-# Google Hacking Automation Tools
+# Desafio Tecnico da Tunts.Rocks 2024
 
 This repository contains two Python scripts for automating Google Hacking techniques, ideal for information security professionals, researchers, and enthusiasts. The scripts enable searching Google for specific terms associated with sensitive file types or specific search operators.
 
