@@ -16,13 +16,10 @@ link público da planilha - https://docs.google.com/spreadsheets/d/1M7IPCF1Nm045
 
 ## Usage
 
-### Script `sensitivesFile.py`
-
-- This script searches Google for specific terms associated with sensitive file types like PDF, DOCX, XLSX, etc.
-- #### How to use:
-    1. Run the script:
-        ```bash
-        python sensitivesFile.py
+- Lembrando que você deverá ter as suas credenciais de autenticação do Google Sheets APIs, assim como também ativar a API do Google Drive
+- #### Para saber como ativar suas APIs, navegue no seguinte link:
+        ```
+        https://developers.google.com/sheets/api/guides/concepts
         ```
     2. Enter the search term when prompted.
     3. The script will display links found for each sensitive file type.
